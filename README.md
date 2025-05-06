@@ -59,8 +59,8 @@ The QuantumMind AI system now incorporates Perplexity's Sonar API to enhance tra
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/aimtyaem/RA-Space-exploration.git
-   cd RA-Space-exploration
+   git clone https://github.com/RAQMai.git
+   cd RAQMai
    ```
 
 2. **Install Dependencies:**
