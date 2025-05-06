@@ -143,7 +143,7 @@ See the LICENSE file for details.
 
 ## 📬 Contact  
 For questions or collaboration, reach out:  
-`aimtyaem`  
+[`aimtyaem`](https://www.github.com/aimtyaem)
 
 > **Note**:  
 > You must obtain Perplexity Sonar API credentials to use this project.  
