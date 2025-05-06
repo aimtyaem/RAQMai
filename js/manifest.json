@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "14.0.9",
+    "com.unity.xr.management": "4.3.3",
+    "com.unity.xr.interaction.toolkit": "3.0.2",
+    "com.unity.xr.openxr": "1.9.0",
+    "com.unity.webxr": "1.1.0",
+    "com.unity.inputsystem": "1.7.0",
+    "com.unity.textmeshpro": "3.2.0",
+    "com.unity.addressables": "1.21.17",
+    "com.unity.entities.graphics": "1.2.0",
+    "com.unity.burst": "1.8.11",
+    "com.unity.jobs": "0.70.0-preview.5"
+  },
+  "registry": "https://packages.unity.com",
+  "scopedRegistries": [
+    {
+      "name": "OpenUPM",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.openupm"
+      ]
+    }
+  ]
+}
