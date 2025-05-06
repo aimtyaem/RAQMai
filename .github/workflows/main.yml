@@ -40,7 +40,7 @@ jobs:
           # Specific docker image that should be used for building the project
           customImage: # optional, default is 
           # Path to the project to be built, relative to the repository root.
-          projectPath: # optional, default is 
+          projectPath: https://cloud.unity.com/home/organizations/11270590718115/projects/1b8f74da-7b4a-470c-a63d-b20c1abded64 # optional, default is 
           # Path to the build profile to activate, relative to the project root.
           buildProfile: # optional, default is 
           # Name of the build. Should not include a file extension.
