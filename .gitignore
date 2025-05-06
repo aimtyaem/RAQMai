@@ -3,3 +3,31 @@
 .htmlhintrc
 .stylelintrc
 .editorconfig
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Pp]rojectSettings/
+[Aa]ssets/AssetStoreTools*
+.csproj
+.unityproj
+.sln
+.user
+.pidb
+.booproj
+.svd
+.pdb
+.mdb
+
+# Node.js
+node_modules/
+dist/
+.cache/
+
+# Logs
+.log
+
+# OS files
+.DS_Store
+Thumbs.db
