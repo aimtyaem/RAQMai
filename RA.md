@@ -76,5 +76,3 @@ Floating holographic avatar with real-time guidance:
 
 ---
 
-> 💡 **Want a polished version?**  
-> Say `"Yes, generate the PDF"` for a stakeholder-ready deck!
