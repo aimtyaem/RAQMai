@@ -151,4 +151,6 @@ jobs:
     env:
       UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
       UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-      UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+      UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}       
+      UNITY_VERSION: '2025.5.6'  # Match your project version
+      UNITY_ID: ${{ secrets.UNITY_ID }}  # For Unity Service Production
