@@ -1,16 +1,22 @@
 #!/bin/bash
 
-# Ensure the script stops if any command fails
-set -e
+# Stop on error
+set -euo pipefail
 
-# Specify the branch to start
-BRANCH="your-branch-name"
+# Colors for clarity
+GREEN='\033[0;32m'
+NC='\033[0m' # No Color
 
-# Checkout the branch
-git checkout $BRANCH
+# Branch to deploy
+BRANCH="${1:-master}"  
 
-# Install dependencies
+echo -e "${GREEN}➡️  Switching to branch: $BRANCH${NC}"
+git fetch origin
+git checkout "$BRANCH"
+git pull origin "$BRANCH"
+
+echo -e "${GREEN}⬇️  Installing Node.js dependencies...${NC}"
 npm install
 
-# Start the application
+echo -e "${GREEN}🚀 Starting VR Training Server...${NC}"
 npm start
