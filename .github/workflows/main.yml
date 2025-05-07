@@ -34,9 +34,9 @@ jobs:
         uses: game-ci/unity-builder@v4.4.0
         with:
           # Platform that the build should target.
-          targetPlatform: # default is 
+          targetPlatform: WebGL # default is 
           # Version of unity to use for building the project. Use "auto" to get from your ProjectSettings/ProjectVersion.txt
-          unityVersion: # optional, default is auto
+          unityVersion: auto # optional, default is auto
           # Specific docker image that should be used for building the project
           customImage: # optional, default is 
           # Path to the project to be built, relative to the repository root.
@@ -58,7 +58,7 @@ jobs:
           # The versioning scheme to use when building the project
           versioning: # optional, default is Semantic
           # The version, when used with the "Custom" versioning scheme
-          version: # optional, default is 
+          version: 6.1 # optional, default is 
           # The android versionCode
           androidVersionCode: # optional, default is 
           # The android export type. Should be androidPackage for apk, androidAppBundle for aab, or androidStudioProject for an android studio project.
@@ -84,7 +84,7 @@ jobs:
           # [CloudRunner] Github private token to pull from github
           gitPrivateToken: # optional, default is 
           # [CloudRunner] GitHub owner name or organization/team name
-          githubOwner: # optional, default is 
+          githubOwner: aimtyaem # optional, default is 
           # Whether to run as a user that matches the host system or the default root container user. Only applicable to Linux hosts and containers. This is useful for fixing permission errors on Self-Hosted runners.
           runAsHostUser: # optional, default is false
           # User and optionally group (user or user:group or uid:gid) to give ownership of the resulting build artifacts
