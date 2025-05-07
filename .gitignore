@@ -4,6 +4,9 @@
 .stylelintrc
 .editorconfig
 # Unity
+git lfs install
+git lfs track "*.psd" "*.fbx" "*.png"
+git add .gitattributes
 [Ll]ibrary/
 [Tt]emp/
 [Bb]uild/
